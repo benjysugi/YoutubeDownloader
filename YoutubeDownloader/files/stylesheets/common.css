@@ -1,0 +1,97 @@
+/* CSS Document */
+
+@font-face {
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Product Sans'), url('../fonts/ProductSans-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Bank Gothic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('BankGothicRegular'), url('../fonts/BankGothicRegular.woff') format('woff');
+}
+
+body {
+	/*background-color: #001220;*/
+    background-size: 40%;
+    margin: 0px;
+    padding: 0px;
+    /*height: 2000px;*/
+}
+
+.navbar-brand {
+    font-family: "Bank Gothic";
+    /*font-size: 37px;*/
+}
+
+h2 {
+	font-family: "Bank Gothic";
+}
+
+/*
+.brand-image {
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: aliceblue;
+}
+*/
+
+.nav-item {
+    font-family: "Bank Gothic";
+    font-size: 18px;
+}
+
+.navbar-brand {
+	padding-left: 10px;
+}
+
+.navbar {
+	background-color: #191D1F;
+}
+
+footer {
+	background-color: #001220;
+}
+
+span {
+	font-family: "Product Sans";
+}
+
+.vertical-align {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.centerTxt {
+	font-family: "Product Sans";
+	font-size: 50px;
+	
+	margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.text_f {
+	font-family: "Bank Gothic";
+}
+
+.txt_center {
+	font-family: "Bank Gothic";
+	margin: 0;
+	position: absolute;
+	right: 10%;
+	transform: translateX(50%);
+	top: -50%;
+	width: 150%;
+}

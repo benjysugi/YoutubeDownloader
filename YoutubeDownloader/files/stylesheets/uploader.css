@@ -1,0 +1,27 @@
+/* CSS Document */
+
+#outer {
+	margin: 0;
+	position: absolute;
+	top: 20%;
+	right: 50%;
+	transform: translateY(-50%);
+	transform: translateX(50%);
+	zoom: 2;
+}
+
+#inp {
+	font-family: "Bank Gothic";
+	background-color: #1A1941;
+	border-color: #18222B;
+	position: absolute;
+	top: 80%;
+	right: 50%;
+	transform: translateX(50%);
+}
+
+#yt_uri {
+	position: relative;
+	width: 150%;
+	right: 25%;
+}

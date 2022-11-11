@@ -1,0 +1,65 @@
+/* CSS Document */
+
+#outer {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	padding-left: 25px;
+	zoom: 1.25;
+}
+
+.poster {
+	/*zoom: 2;*/
+}
+
+.text {
+	font-size: 20px;
+	padding-left: 20px;
+}
+
+#text_d {
+	padding-left: 15px;
+}
+
+.rating {
+	padding-bottom: 10px;
+}
+
+#watch_button_cont {
+	padding-top: 5px;
+}
+
+#watch_button {
+	font-family: "Bank Gothic";
+	text-align: center;
+	zoom: 1.1;
+	width: 75%;
+	background-color: #1A1941;
+	border-color: #18222B;
+}
+
+#watchsolo_button {
+	font-family: "Bank Gothic";
+	text-align: center;
+	zoom: 1.1;
+	width: 75%;
+	background-color: #1A1941;
+	border-color: #18222B;
+}
+
+#text_ready {
+	color: #00D100;
+}
+
+.trailer_vid {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	right: 0px;
+	padding-right: 100px;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	float: right;
+}
